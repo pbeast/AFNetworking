@@ -393,7 +393,7 @@ static NSString * const AFNSURLSessionTaskDidSuspendNotification = @"com.alamofi
             currentClass = [currentClass superclass];
         }
         
-        [localDataTask cancel];
+//        [localDataTask cancel];
         [session finishTasksAndInvalidate];
     }
 }
